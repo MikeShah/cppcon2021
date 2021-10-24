@@ -10,7 +10,6 @@ int main(){
         array[i] = i;
     }  
     // Array offset shorthand
-    short* p_s = &array[0];
     std::cout << "array[0]:" << *(array+0) << std::endl;
     std::cout << "array[1]:" << *(array+1) << std::endl;
     std::cout << "array[2]:" << *(array+2) << std::endl;
