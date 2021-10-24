@@ -2,11 +2,11 @@
 // g++ -std=c++17 passByPointer.cpp -o prog
 #include <iostream>
 
-int passByValue(int x){
+void passByValue(int x){
     x = 9999;
 }
 
-int passByPointer(int* intPointer){
+void passByPointer(int* intPointer){
     *intPointer = 9999;
 }
 
