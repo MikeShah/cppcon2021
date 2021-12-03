@@ -43,6 +43,8 @@ class Boat: public IGameObject{
     static IGameObject* Create() {
         return new Boat(0,0);
     }
+    private:
+        static int ObjectsCreated;
 };
 
 #endif
